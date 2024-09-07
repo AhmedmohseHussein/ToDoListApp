@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ToDo List App</string>
+    <string name="fragment2">Fragment2</string>
+</resources>

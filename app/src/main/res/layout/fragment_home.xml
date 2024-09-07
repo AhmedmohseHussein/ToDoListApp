@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.HomeFragment">
+
+    <include
+        android:id="@+id/loginPage"
+        layout="@layout/login_page"
+        android:layout_marginTop="100dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="48dp"
+        android:src="@android:drawable/ic_input_add"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+
+    </com.google.android.material.floatingactionbutton.FloatingActionButton>
+   <!--  <TextView
+         android:padding="20dp"
+         android:background="@color/black"
+         android:layout_width="wrap_content"
+         android:id="@+id/text1fragment1"
+         android:layout_height="wrap_content"
+         android:textColor="@color/white"
+         android:text="@string/fragment1" />
+-->
+</androidx.constraintlayout.widget.ConstraintLayout>
